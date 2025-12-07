@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p Id="output"></p>
+    <script>
+        function divnumber(a,b) {
+            let division=a/b;
+            return division;
+        }
+
+        let result=divnumber(8,4);
+       document.getElementById("output").innerHTML = "The division is: " + result;
+ </script>
+</body>
+</html>
